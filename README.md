@@ -95,5 +95,59 @@ The dataset was specifically designed to isolate forgetting mechanisms rather th
 - Personal information and timestamps de-identified
 - Dataset available under CC BY 4.0 licence
 
-## DKT simple starter
-https://pykt-toolkit.readthedocs.io/en/latest/contribute.html#add-your-datasets
+
+## Quick Start
+
+### Installation
+
+You can install pyKT through `pip`:
+```bash
+pip install -U pykt-toolkit
+```
+
+We advise creating a new Conda environment:
+```bash
+conda create --name=pykt python=3.7.5
+source activate pykt
+pip install -U pykt-toolkit
+```
+
+### Train Your First Model
+
+**1. Obtain the Dataset**
+
+Clone this repository to get the FORGET-SE dataset:
+```bash
+git clone https://github.com/alyssa-sha/FORGET-SE.git
+cd FORGET-SE/
+```
+
+The dataset is located in `data/forget_se/`
+
+**2. Data Preprocessing**
+```bash
+python data_preprocess.py [parameters]
+```
+
+**Args:**
+- `--dataset_name`: dataset name, default="assist2015"
+- `--min_seq_len`: minimum sequence length, default=3
+- `--maxlen`: maximum sequence length, default=200
+- `--kfold`: divided folds, default=5
+
+**Example:**
+```bash
+cd examples
+python data_preprocess.py --dataset_name=forget_se
+```
+
+### Citation
+
+If you use this dataset, please cite:
+```bibtex
+@inproceedings{sha2025forgetse,
+  title={FORGET-SE: A Dataset for Analysing Memory Decay and Interference in Software Engineering Knowledge Tracing},
+  author={Sha, Alyssa Shuang; Nunes, Bernardo Pereira and Yige Chen},
+  booktitle={ICSE-SEET 2026},
+  year={2025}
+}
