@@ -1,0 +1,350 @@
+2025-05-09 12:03:53 - main - said: load config files.
+Start init data
+test akt {'assist2015': {'dpath': '../data/assist2015', 'num_q': 0, 'num_c': 100, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'algebra2005': {'dpath': '../data/algebra2005', 'num_q': 173113, 'num_c': 112, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'assist2009': {'dpath': '../data/assist2009', 'num_q': 17737, 'num_c': 123, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'slepemapy': {'dpath': '../data/slepemapy', 'num_q': 2913, 'num_c': 1458, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2017': {'dpath': '../data/assist2017', 'num_q': 3162, 'num_c': 102, 'input_type': ['questions', 'concepts'], 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'max_concepts': 1, 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'assist2012': {'dpath': '../data/assist2012', 'num_q': 53070, 'num_c': 265, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'statics2011': {'dpath': '../data/statics2011', 'num_q': 0, 'num_c': 1223, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'junyi2015': {'dpath': '../data/junyi2015', 'num_q': 721, 'num_c': 39, 'input_type': ['questions', 'concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'bridge2algebra2006': {'dpath': '../data/bridge2algebra2006', 'num_q': 129263, 'num_c': 493, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet': {'dpath': '../data/ednet', 'num_q': 11744, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'nips_task34': {'dpath': '../data/nips_task34', 'num_q': 948, 'num_c': 57, 'input_type': ['questions', 'concepts'], 'max_concepts': 2, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'poj': {'dpath': '../data/poj', 'num_q': 0, 'num_c': 2748, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'peiyou': {'dpath': '../data/peiyou', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'train_valid_original_file': 'train_valid.csv', 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet5w': {'dpath': '../data/ednet5w', 'num_q': 12235, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'test': {'dpath': '../data/test', 'num_q': 0, 'num_c': 100, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}} 0 64
+2025-05-09 12:03:53 - main - said: init_dataset
+dataset_name:test
+Read data from processed file: ../data/test/train_valid_sequences.csv_0.pkl
+file path: ../data/test/train_valid_sequences.csv, qlen: 0, clen: 3082, rlen: 3082
+Read data from processed file: ../data/test/train_valid_sequences.csv_1_2_3_4.pkl
+file path: ../data/test/train_valid_sequences.csv, qlen: 0, clen: 12344, rlen: 12344
+params: {'dataset_name': 'test', 'model_name': 'akt', 'emb_type': 'qid', 'save_dir': 'saved_model', 'seed': 3407, 'fold': 0, 'dropout': 0.2, 'd_model': 256, 'd_ff': 512, 'num_attn_heads': 2, 'n_blocks': 4, 'learning_rate': 0.0001, 'use_wandb': 1, 'add_uuid': 0}, params_str: test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+Start training model: akt, embtype: qid, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0, dataset_name: test
+model_config: {'dropout': 0.2, 'd_model': 256, 'd_ff': 512, 'num_attn_heads': 2, 'n_blocks': 4, 'learning_rate': 0.0001, 'use_wandb': 1, 'add_uuid': 0}
+train_config: {'batch_size': 64, 'num_epochs': 200, 'optimizer': 'adam', 'seq_len': 200}
+2025-05-09 12:03:53 - main - said: init_model
+model_name:akt
+model is AKT(
+  (q_embed): Embedding(100, 256)
+  (qa_embed): Embedding(2, 256)
+  (model): Architecture(
+    (blocks_1): ModuleList(
+      (0): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (1): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (2): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (3): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+    )
+    (blocks_2): ModuleList(
+      (0): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (1): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (2): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (3): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (4): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (5): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (6): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+      (7): TransformerLayer(
+        (masked_attn_head): MultiHeadAttention(
+          (v_linear): Linear(in_features=256, out_features=256, bias=True)
+          (k_linear): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.2, inplace=False)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (linear1): Linear(in_features=256, out_features=512, bias=True)
+        (activation): ReLU()
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=512, out_features=256, bias=True)
+        (layer_norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+    )
+  )
+  (out): Sequential(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.2, inplace=False)
+    (3): Linear(in_features=512, out_features=256, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.2, inplace=False)
+    (6): Linear(in_features=256, out_features=1, bias=True)
+  )
+)
+2025-05-09 12:03:54 - main - said: train model
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 1, validauc: 0.7055, validacc: 0.7408, best epoch: 1, best auc: 0.7055, train loss: 0.5420325220066435, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 2, validauc: 0.7134, validacc: 0.7433, best epoch: 2, best auc: 0.7134, train loss: 0.5244174658301861, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 3, validauc: 0.7175, validacc: 0.7425, best epoch: 3, best auc: 0.7175, train loss: 0.5198444129358689, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 4, validauc: 0.7175, validacc: 0.7425, best epoch: 3, best auc: 0.7175, train loss: 0.518016553943254, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 5, validauc: 0.7205, validacc: 0.7452, best epoch: 5, best auc: 0.7205, train loss: 0.5166013064456807, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 6, validauc: 0.7205, validacc: 0.7452, best epoch: 5, best auc: 0.7205, train loss: 0.5152256046829664, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 7, validauc: 0.722, validacc: 0.7469, best epoch: 7, best auc: 0.722, train loss: 0.5144910944488695, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 8, validauc: 0.722, validacc: 0.7469, best epoch: 7, best auc: 0.722, train loss: 0.5133562917007292, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 9, validauc: 0.7231, validacc: 0.7465, best epoch: 9, best auc: 0.7231, train loss: 0.5130738790190922, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 10, validauc: 0.7245, validacc: 0.7499, best epoch: 10, best auc: 0.7245, train loss: 0.5127059596853093, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 11, validauc: 0.7245, validacc: 0.7499, best epoch: 10, best auc: 0.7245, train loss: 0.5115707442941981, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 12, validauc: 0.7245, validacc: 0.7499, best epoch: 10, best auc: 0.7245, train loss: 0.5112183921194817, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 13, validauc: 0.7245, validacc: 0.7499, best epoch: 10, best auc: 0.7245, train loss: 0.5105164284538979, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 14, validauc: 0.7261, validacc: 0.7512, best epoch: 14, best auc: 0.7261, train loss: 0.5101342111968146, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 15, validauc: 0.7261, validacc: 0.7512, best epoch: 14, best auc: 0.7261, train loss: 0.5095247210377487, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 16, validauc: 0.728, validacc: 0.753, best epoch: 16, best auc: 0.728, train loss: 0.5090368262564887, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 17, validauc: 0.728, validacc: 0.753, best epoch: 16, best auc: 0.728, train loss: 0.5083046771108947, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 18, validauc: 0.728, validacc: 0.753, best epoch: 16, best auc: 0.728, train loss: 0.5081412840872106, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 19, validauc: 0.728, validacc: 0.753, best epoch: 16, best auc: 0.728, train loss: 0.50729728577515, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 20, validauc: 0.7291, validacc: 0.7544, best epoch: 20, best auc: 0.7291, train loss: 0.5071648027010102, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 21, validauc: 0.7291, validacc: 0.7544, best epoch: 20, best auc: 0.7291, train loss: 0.5066079049821696, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 22, validauc: 0.7291, validacc: 0.7544, best epoch: 20, best auc: 0.7291, train loss: 0.5061285788335947, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 23, validauc: 0.7304, validacc: 0.7549, best epoch: 23, best auc: 0.7304, train loss: 0.5056996369487193, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 24, validauc: 0.7304, validacc: 0.7549, best epoch: 23, best auc: 0.7304, train loss: 0.5051313003394977, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 25, validauc: 0.7304, validacc: 0.7549, best epoch: 23, best auc: 0.7304, train loss: 0.5048635747476666, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 26, validauc: 0.7304, validacc: 0.7549, best epoch: 23, best auc: 0.7304, train loss: 0.5043589963633159, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 27, validauc: 0.7304, validacc: 0.7549, best epoch: 23, best auc: 0.7304, train loss: 0.503903129048545, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 28, validauc: 0.7304, validacc: 0.7549, best epoch: 23, best auc: 0.7304, train loss: 0.5036834395151235, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 29, validauc: 0.7304, validacc: 0.7549, best epoch: 23, best auc: 0.7304, train loss: 0.5032200896052444, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 30, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.5028036298446891, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 31, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.5023919657114311, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 32, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.5017002963217705, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 33, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.501544903331326, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 34, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.5012766533580547, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 35, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.5006063029614074, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 36, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.5008073741968269, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 37, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.5000557211070392, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 38, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.4995189133362443, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 39, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.4994394533602198, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (102749,), ps.shape: (102749,)
+Epoch: 40, validauc: 0.7314, validacc: 0.7552, best epoch: 30, best auc: 0.7314, train loss: 0.4989649469546397, emb_type: qid, model: akt, save_dir: saved_model/test_akt_qid_saved_model_3407_0_0.2_256_512_2_4_0.0001_1_0
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+fold	modelname	embtype	testauc	testacc	window_testauc	window_testacc	validauc	validacc	best_epoch
+0	akt	qid	-1	-1	-1	-1	0.7314081413725322	0.7552482262601096	30
+end:2025-05-09 14:09:08.362817
