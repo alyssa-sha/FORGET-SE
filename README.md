@@ -95,3 +95,5 @@ The dataset was specifically designed to isolate forgetting mechanisms rather th
 - Personal information and timestamps de-identified
 - Dataset available under CC BY 4.0 licence
 
+## DKT simple starter
+https://pykt-toolkit.readthedocs.io/en/latest/contribute.html#add-your-datasets
